@@ -1,3 +1,11 @@
+/*
+ * @Description:
+ * @Version:
+ * @Author: Huang ai peng
+ * @Date: 2022-04-20 01:59:56
+ * @LastEditors: Huang ai peng
+ * @LastEditTime: 2022-04-20 01:59:56
+ */
 import * as React from 'react';
 import { ILowCodePluginContext } from '@alilc/lowcode-engine';
 import Icon from './icon';
@@ -17,11 +25,11 @@ const <%- componentName %> = (ctx: ILowCodePluginContext) => {
         },
       }
     },
-    // 插件的初始化函数，在引擎初始化之后会立刻调用
+    // 插件的初始化函数，在引擎初始化之后会立刻调用de
     init() {
       // 你可以拿到其他插件暴露的方法和属性
       // const { data, func } = ctx.plugins.pluginA;
-      // func(); 
+      // func();
 
       // console.log(options.name);
 
